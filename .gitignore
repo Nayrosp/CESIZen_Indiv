@@ -1,0 +1,33 @@
+# Java / Maven
+Backend/CesiZen/target/
+*.class
+*.jar
+*.war
+
+# Spring Boot
+Backend/CesiZen/src/main/resources/application-local.properties
+
+# Node / React (pour plus tard)
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environnement
+.env
+*.env.local
+
+# Documentation et fichiers Merise
+*.md
+OLD/
+docs/
+Consignes/
+*.lo1
+*.loo
