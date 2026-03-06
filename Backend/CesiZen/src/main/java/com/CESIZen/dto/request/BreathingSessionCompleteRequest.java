@@ -1,6 +1,6 @@
-package com.cesizen.dto.request;
+package com.CESIZen.dto.request;
 
-import com.cesizen.entity.BreathingSession.Feeling;
+import com.CESIZen.entity.BreathingSession.Feeling;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 

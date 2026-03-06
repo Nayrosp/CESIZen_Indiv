@@ -2,7 +2,6 @@ package com.CESIZen.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.extern.apachecommons.CommonsLog;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -42,8 +41,8 @@ public  class Information{
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
-    @Column(nullable = false, length = 255)
-    private String tittle;
+    @Column(name = "title", nullable = false, length = 255)
+    private String title;
 
     @Column(length = 255)
     private String source;

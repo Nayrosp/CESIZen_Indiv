@@ -1,7 +1,7 @@
-package com.cesizen.repository;
+package com.CESIZen.repository;
 
-import com.cesizen.entity.BreathingExercice;
-import com.cesizen.entity.BreathingExercice.ExerciceStatus;
+import com.CESIZen.entity.BreathingExercice;
+import com.CESIZen.entity.BreathingExercice.ExerciceStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

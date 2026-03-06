@@ -1,6 +1,6 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
-import com.cesizen.entity.Information.InformationStatus;
+import com.CESIZen.entity.Information.InformationStatus;
 
 import java.time.LocalDateTime;
 

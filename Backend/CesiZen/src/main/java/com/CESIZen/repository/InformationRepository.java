@@ -1,7 +1,7 @@
-package com.cesizen.repository;
+package com.CESIZen.repository;
 
-import com.cesizen.entity.Information;
-import com.cesizen.entity.Information.InformationStatus;
+import com.CESIZen.entity.Information;
+import com.CESIZen.entity.Information.InformationStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

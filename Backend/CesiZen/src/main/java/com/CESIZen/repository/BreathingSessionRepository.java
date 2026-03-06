@@ -1,6 +1,6 @@
-package com.cesizen.repository;
+package com.CESIZen.repository;
 
-import com.cesizen.entity.BreathingSession;
+import com.CESIZen.entity.BreathingSession;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

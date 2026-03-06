@@ -1,6 +1,6 @@
-package com.cesizen.dto.request;
+package com.CESIZen.dto.request;
 
-import com.cesizen.entity.Information.InformationStatus;
+import com.CESIZen.entity.Information.InformationStatus;
 import jakarta.validation.constraints.NotNull;
 
 /**

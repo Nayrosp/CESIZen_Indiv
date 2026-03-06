@@ -1,4 +1,4 @@
-package com.cesizen.dto.request;
+package com.CESIZen.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

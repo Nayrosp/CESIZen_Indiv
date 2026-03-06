@@ -1,7 +1,7 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
-import com.cesizen.entity.BreathingExercice.DifficultyLevel;
-import com.cesizen.entity.BreathingExercice.ExerciceStatus;
+import com.CESIZen.entity.BreathingExercice.DifficultyLevel;
+import com.CESIZen.entity.BreathingExercice.ExerciceStatus;
 
 /**
  * DTO de réponse — Exercice de respiration.

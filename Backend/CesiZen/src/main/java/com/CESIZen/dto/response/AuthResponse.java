@@ -1,6 +1,6 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
-import com.cesizen.entity.User.UserRole;
+import com.CESIZen.entity.User.UserRole;
 
 /**
  * DTO de réponse — Authentification réussie.

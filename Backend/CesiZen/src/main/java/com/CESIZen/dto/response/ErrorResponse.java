@@ -1,4 +1,4 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
 import java.time.LocalDateTime;
 import java.util.List;

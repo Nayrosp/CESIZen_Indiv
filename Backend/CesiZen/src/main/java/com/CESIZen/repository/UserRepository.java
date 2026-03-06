@@ -1,7 +1,7 @@
-package com.cesizen.repository;
+package com.CESIZen.repository;
 
-import com.cesizen.entity.User;
-import com.cesizen.entity.User.UserStatus;
+import com.CESIZen.entity.User;
+import com.CESIZen.entity.User.UserStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -24,4 +24,4 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
     /** Utilisé par l'admin pour lister les comptes par statut. */
     java.util.List<User> findAllByStatus(UserStatus status);
-}za
+}

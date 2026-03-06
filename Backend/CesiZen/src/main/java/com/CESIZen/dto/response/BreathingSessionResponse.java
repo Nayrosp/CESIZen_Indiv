@@ -1,6 +1,6 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
-import com.cesizen.entity.BreathingSession.Feeling;
+import com.CESIZen.entity.BreathingSession.Feeling;
 
 import java.time.LocalDateTime;
 

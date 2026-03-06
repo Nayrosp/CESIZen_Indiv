@@ -1,7 +1,7 @@
-package com.cesizen.dto.response;
+package com.CESIZen.dto.response;
 
-import com.cesizen.entity.User.UserRole;
-import com.cesizen.entity.User.UserStatus;
+import com.CESIZen.entity.User.UserRole;
+import com.CESIZen.entity.User.UserStatus;
 
 import java.time.LocalDateTime;
 

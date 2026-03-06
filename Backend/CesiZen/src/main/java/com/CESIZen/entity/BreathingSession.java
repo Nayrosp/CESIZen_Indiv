@@ -28,7 +28,7 @@ public  class BreathingSession{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Id_breathing_sessions")
-    private Integer Id;
+    private Integer id;
 
     @CreatedDate
     @Column(name = "started_at", nullable = false, updatable = false)
@@ -50,10 +50,10 @@ public  class BreathingSession{
     private Feeling feelingAfter;
 
     @Column(name = "heart_rate_before")
-    private Integer heartRateBefore;
+    private Short heartRateBefore;
 
     @Column(name = "heart_rate_after")
-    private Integer heartRateAfter;
+    private Short heartRateAfter;
 
     @Column(columnDefinition = "TEXT")
     private String notes;
@@ -75,7 +75,7 @@ public  class BreathingSession{
      * Utilisateur lié — nullable pour les sessions anonymes.
      * ON DELETE SET NULL : si le compte est supprimé, la session est conservée.
      */
-    @ManyToOne(fetch = FetchType.LAZY, optional = true)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "Id_users", nullable = true)
     private User user;
 
